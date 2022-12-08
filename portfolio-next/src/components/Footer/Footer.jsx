@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -12,6 +13,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
+  ToTop,
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -40,6 +42,9 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <Link href="#top">
+        <ToTop>Back to Top</ToTop>
+      </Link>
     </FooterWrapper>
   );
 };
