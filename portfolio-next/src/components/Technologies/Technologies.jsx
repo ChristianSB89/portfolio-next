@@ -1,6 +1,6 @@
 import React from "react";
 import { DiCodeBadge } from "react-icons/di";
-import { SiAdobephotoshop } from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 import {
   Section,
   SectionDivider,
@@ -18,6 +18,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in web development.
@@ -36,9 +37,9 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <SiAdobephotoshop size="3rem" />
+        <FiFigma size="3rem" />
         <ListContainer>
-          <ListTitle>Design</ListTitle>
+          <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
             Figma, Photoshop, Illustrator and more
